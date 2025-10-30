@@ -1,0 +1,34 @@
+package Lista22;
+
+public class MusicaP {
+
+	    public static void main(String[] args) {
+
+	        Musica m1 = new Musica();
+	        m1.titulo = "Shape of You";
+	        m1.artista = "Ed Sheeran";
+	        m1.duracao = 4.2;
+
+	        Musica m2 = new Musica();
+	        m2.titulo = "Blinding Lights";
+	        m2.artista = "The Weeknd";
+	        m2.duracao = 3.5;
+
+	        Musica m3 = new Musica();
+	        m3.titulo = "Levitating";
+	        m3.artista = "Dua Lipa";
+	        m3.duracao = 3.8;
+
+	        m1.mostrarDetalhes();
+	        m1.tocar();
+	        m1.pausar();
+
+	        m2.mostrarDetalhes();
+	        m2.tocar();
+	        m2.pausar();
+
+	        m3.mostrarDetalhes();
+	        m3.tocar();
+	        m3.pausar();
+	    }
+	}
