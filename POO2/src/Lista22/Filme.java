@@ -1,7 +1,18 @@
-6. Classe Filme
-Crie uma classe chamada Filme com:
-Atributos: titulo, genero, duracao
-Métodos:
-assistir() - imprime “Assistindo [titulo]...”
-mostrarInformacoes()
-Crie três filmes e chame os métodos.
+package Lista22;
+
+public class Filme {
+
+    String titulo;
+    String genero;
+    double duracao;
+
+    void assistir() {
+        System.out.println("Assistindo " + titulo);
+    }
+
+    void mostrarInformacoes() {
+        System.out.println("Título: " + titulo);
+        System.out.println("Gênero: " + genero);
+        System.out.println("Duração: " + duracao + " minutos");
+    }
+}
