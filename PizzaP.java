@@ -1,0 +1,18 @@
+package Lista22;
+
+public class PizzaP {
+
+public static void main(String[] args) {
+		
+		Pizza pizza = new Pizza();
+        pizza.sabor = "Pepperoni";
+        pizza.tamanho = "Grande";
+        pizza.bordaRecheada = true;
+        pizza.preparar();
+        pizza.preparar();
+        pizza.assando();
+        pizza.mostrarInformacoes();
+
+	}
+
+}
